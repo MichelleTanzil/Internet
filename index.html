@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Internet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <div id="logo" class="d-inline-block va-top">
+            <!-- The Internet Logo -->
+            <img src="globe.png" alt="Globe Image">
+            <!-- Title -->
+            <h1 class="d-inline-block">
+                The Inter<span class="text-primary">net</span>
+            </h1>
+        </div>
+        <h1 id="title" class="text-white">The World Wide Web</h1>
+    </header>
+
+    <!-- Side bar -->
+    <aside class="d-inline-block va-top">
+        <div class="bg-primary">
+        <h4 class="mar-bot">
+            So, what's an <span class="text-danger">internet?</span>
+        </h4>
+        <h5 class="mar-bot">
+            An <span class="text-primary">inter</span>connected <span class="text-primary">Net</span>work of computers all around the world!
+        </h5>
+        <button class="text-white bg-seconday btn-box-shadow">WATCH A VIDEO</button>
+        <button class="text-white bg-warning btn-box-shadow">MORE RESOURCES</button>
+        </div>
+        <hr>
+
+        <!-- Coding Dojo Ad -->
+        <div id="ad">
+            <h3 class="text-light">Reinvent your career in just 14 weeks</h3>
+            <img class="mar-top" src="ninja.png" alt="Coding Dojo Ninja">
+            <button class="text-white bg-info mar-top btn-box-shadow">Learn More <span class="symbols">&gt;&gt;&gt;</span></button>
+        </div>
+    </aside>
+    <!-- Main section -->
+    <main class="d-inline-block">
+        <section class="bg-primary d-inline-block">
+            <!-- Home Button-->
+            <div id="left" class="d-inline-block va-top">
+                <img src="home.png" alt="Home">
+                <p class="d-inline-block">DNS</p>
+            </div>
+            <!-- Contact Info -->
+            <div id="contact" class="d-inline-block">
+                <img src="phone.png" alt="Phone Number">
+                <div id="right" class="d-inline-block">
+                    <p class="text-sm">
+                        Mon - Fri 9 a.m. - 5 p.m. (EST)
+                    </p>
+                    <h2 class="text-info">
+                        855.967.3787
+                    </h2>
+                    <p class="text-sm">
+                        International +1.617.963.0555
+                    </p>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section id="main-sec">
+            <!-- Clients & Servers & So What Actually Happens?-->
+            <h4 class="text-primary">
+                Clients and Servers
+            </h4>
+            <p class="top-bot-padding">
+                Computers connected to the <span class="text-info strong">web</span> are called <strong>clients</strong> and <strong>servers.</strong>
+            </p>
+            <ul>
+                <li class="top-bot-padding">
+                    <span class="text-info strong">Clients</span> are the typical Web User's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="text-info strong">Web-accessing software</span> available on those devies(usually a web broswer like Firefox or Chrome).
+                </li>
+                <li class="top-bot-padding">
+                    <span class="text-info strong">Servers</span> are computers that store <span class="text-info strong">webpages</span>, <span class="text-info strong">sites</span>, or <span class="text-info strong">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
+                </li>
+            </ul>
+            <img id="http-img" src="client_server.jpg" alt="HTTP Request and Response Cycle">
+            <h4 class="text-primary">
+                So What Actually Happens?
+            </h4>
+            <ol>
+                <li class="top-bot-padding">
+                    The browser goes to the <span class="text-info strong">DNS server</span> and finds the real address of the <span class="text-info strong">server</span> that the website lives on. 
+                </li>
+                <li class="top-bot-padding">
+                    The brwoser sends an <span class="text-info strong">HTTP request</span> message to the server asking it to send a copy of the website to the client.
+                </li>
+                <li class="top-bot-padding">
+                    If the server approves the client's request, the server sends the client a <span class="text-info strong">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.
+                </li>
+                <li class="top-bot-padding">
+                    The browser assembles the small chunks into a complete website and displays it to you!
+                </li class="top-bot-padding">
+            </ol>
+        </section>
+        <!-- The Big 3 -->
+        <section id="big-three">
+            <img src="html.png" alt="HTML, CSS, and JavaScript">
+            <div class="d-inline-block set-text">
+                <h4 class="text-primary d-inline-block">
+                    The Big 3 - HTML, CSS, JavaScript
+                </h4>
+                <p class="d-inline-block">
+                    While the server can process information in many different languages, the files that they serve to the client are <i>always</i> going to be some combination of HTML, CSS, and Javascript!
+                </p>
+                <p class="d-inline-block">
+                    Learn more about the Big 3 <span class="text-info strong">here</span>!
+                </p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

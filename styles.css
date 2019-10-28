@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+    font-family: Helvetica; 
+}
+
+body {
+width: 970px;
+margin: 0 auto; 
+}
+
+/* Header */
+#logo {
+    height: 100%; 
+}
+
+#logo img{
+    width: 75px;
+    position: relative;
+    z-index: 1; 
+    top: 25px;
+}
+#title {
+    min-height: 65px;
+    background-image: linear-gradient(#23659E, #5283AD, #24669F);
+    line-height: 2; 
+    padding-left: 2%;
+}
+
+/* Side Bar */
+aside{
+    width: 20%;
+    margin-right: -4px; 
+}
+
+aside h4 {
+    padding-top: 16px; 
+}
+
+aside button {
+    width: 99%; 
+    border: 0px solid black;
+    border-radius: 3px;
+    padding: 6px 0; 
+    margin-bottom: 5px; 
+}
+
+aside hr{
+    margin: 20px 0;
+}
+/* Side Bar - Ad */
+
+#ad{
+    background-image: url("ad_background.png");
+    text-align: center;
+    padding: 12px 10px 25px 10px; 
+}
+
+#ad img {
+    height: 110px;
+}
+
+#ad button{
+    width: 90%;
+}
+
+.symbols {
+    font-weight: bold;
+    font-size: 8px; 
+}
+
+/* Main Section */
+
+main {
+    width: 75%;
+    margin-right: -4px; 
+    margin-left: 5%; 
+}
+
+main section{
+    width: 100%; 
+}
+
+main hr {
+    margin: 15px 0; 
+}
+
+/* Home and contact info */
+
+#left{
+    color: #3B75A7;
+    width: 15%;
+    margin-left: -4px;
+    padding-left: 10px; 
+}
+
+#left img{
+    width: 15px; 
+    padding-top: 15px; 
+}
+
+#contact {
+    width: 85%;
+    margin-left: -4px; 
+    padding-left: 416px; 
+}
+
+#contact img {
+    width: 40px;
+}
+
+/* Clients and Servers */
+#http-img {
+    width: 250px; 
+    padding: 10px 0; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+li{
+    margin-left: 35px; 
+}
+
+/* The Big 3 */
+
+#big-three{
+    border: 5px solid #0085E0; 
+    border-bottom: none; 
+    padding-top: 15px;
+    padding-left: 20px; 
+}
+
+#big-three img {
+    width: 100px;
+}
+
+.set-text{
+    width: 80%;
+    padding-left: 10px;  
+}
+
+.set-text p{
+    margin: 5px 0; 
+}
+
+/* Background*/
+
+.bg-primary {
+    background-image: linear-gradient(#E6E6E6, #FFFFFF) ;
+}
+
+.bg-seconday{
+    background-image: linear-gradient(#6297C3, #417DB0, #23669E);
+}
+
+.bg-warning{
+    background-image: linear-gradient(#EAAA52, #ED9424, #EF7500);
+}
+
+.bg-info{
+    background-image: linear-gradient(#7AD0DF,#30C7DF,#02B8D6);
+}
+
+.btn-box-shadow{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+/* Text*/
+#logo p {
+    color:#474747; 
+}
+
+.text-primary {
+    color: #22659E;
+}
+
+.text-secondary{
+    color: #474747; 
+}
+
+.text-white{
+    color: white; 
+}
+
+.text-danger{
+    color: #D9231C;
+}
+
+.text-light{
+    color: #EDEFF0;
+}
+
+.text-info {
+    color:#09C2DF;
+}
+
+.text-sm {
+    font-size: 10px; 
+}
+
+.strong{
+    font-weight: bold;
+}
+
+/* Alignment*/
+.d-inline-block {
+    display: inline-block;
+}
+.va-top {
+    vertical-align: top;
+}
+
+/* Margins */
+.mar-top{
+    margin-top: 10px
+}
+
+.mar-bot {
+    margin-bottom: 15px; 
+}
+
+/* Padding */
+.top-bot-padding{
+    padding: 5px 0;
+}
